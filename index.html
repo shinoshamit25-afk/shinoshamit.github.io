@@ -281,14 +281,43 @@
       display:inline-block;
     }
 
-    @media (max-width: 920px){
-      .grid{ grid-template-columns: 1fr; }
-      .projects{ grid-template-columns: 1fr; }
-      .cols{ grid-template-columns: 1fr; }
-      .contact{ grid-template-columns: 1fr; }
-      .links a{ padding:9px 10px; }
-      .photo{ max-width: 420px; }
-    }
+  @media (max-width: 920px){
+  .grid{ grid-template-columns: 1fr; }
+  .projects{ grid-template-columns: 1fr; }
+  .cols{ grid-template-columns: 1fr; }
+  .contact{ grid-template-columns: 1fr; }
+  .photo{ max-width: 420px; }
+
+  .nav{
+    border-radius: 22px;      
+    padding: 12px 14px;
+    gap: 10px;
+  }
+  .brand{
+    width: 100%;
+    justify-content: center;    
+    padding-left: 0;
+    text-align: center;
+  }
+  .brand span{
+    display: block;             
+    margin-left: 0;
+    margin-top: 4px;
+    font-size: 12px;
+  }
+  .links{
+    width: 100%;
+    justify-content: center;    
+    gap: 8px;
+  }
+  .links a{
+    padding: 8px 10px;
+    font-size: 13px;
+    border-color: rgba(255,255,255,0.10);
+    background: rgba(255,255,255,0.03);
+  }
+}
+
   </style>
 </head>
 
@@ -553,4 +582,5 @@
   </script>
 </body>
 </html>
+
 
